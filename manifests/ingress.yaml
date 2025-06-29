@@ -6,7 +6,6 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
-  ingressClassName: nginx             # Must match your ingress controller
   rules:
     - host: nginx.local               # Update for your env
       http:
